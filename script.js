@@ -12,3 +12,14 @@ let ukupniTrosak = cijenaUlaznice * brojUlaznica;
 let preostaliIznos = budzet - ukupniTrosak;
 let dovoljnoNovca = budzet >= ukupniTrosak;
 let tocanIznos = budzet === ukupniTrosak;
+
+//Ispis rezultata
+
+alert(
+    "Ime: " + ime + "\n" +
+    "Ukupni trošak: " + ukupniTrosak + " €\n" +
+    "Preostali iznos: " + preostaliIznos + " €\n" +
+    "Dovoljno novca: " + dovoljnoNovca + "\n" +
+    "Točan iznos: " + tocanIznos + "\n" +
+    "Nastavak planiranja: " + nastavakPlaniranja
+);
